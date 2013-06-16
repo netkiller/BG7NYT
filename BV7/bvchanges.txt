@@ -1,0 +1,222 @@
+BV7 - QSL Management and Label Printing by DF3CB
+------------------------------------------------
+
+Release Notes and Changes
+
+7 Beta 2 - Oct 7, 2001
+============================================================================
+- New function key Ctrl-A to select all QSOs for a callsign!
+- New function key Ctrl-F to fill the manager field in the log from the QSL
+  manager database. You can also drag and drop the manager from the manager
+  edit field into your log or open the popup manager list right to the
+  manager edit field and click on the right manager. If you have selected
+  several QSOs, all records are filled with the manager.
+- Putting QSOs into the print queue should work perfectly now with all
+  methods: F2/F3, Ctrl-Left and drag & drop.
+- All former BV6 log exports are available again. The ASCII output in fixed
+  column format does not yet work.
+- Import: sub modes were not imported.
+- ADIF Import: QSL sent date and QSL received date were not imported.
+- Configuration dialog improved: helping hints added.
+- Digital Mode WSJT added.
+- Help file updated, especially the label designer section. The help file is
+  half-done now. Further updates available more frequently now.
+
+7.0 - Nov 17, 2001
+============================================================================
+- First full release of BV Version 7.
+- A few icons and menu item captions changed.
+- Filtering for QSL sent/rcvd flags through new buttons with dropdown menus.
+- New Windows menu item "Reset dock positions" in the main program and
+  designer window.
+- Mode FAX added.
+- A few bugs in the import section fixed.
+- Label print options (F12 key) (former: "Start printing at") works now.
+  You can print ranges of pages now.
+- Print preview of labels improved.
+- To navigate and to delete records in the print queue window, use the ALT
+  keys now or right click into the print queue window to open a context
+  menu.
+- Several access violations fixed.
+- The status bar and the print queue information box show now the number of
+  labels and pages to be printed instead of just the number of records in the
+  print queue.
+- New function keys Shift-Cursor Down and Shift-Cursor Up to select several
+  contiguous QSO records at one time.
+- All window text captions scaled correctly for all available Windows fonts.
+- Screen splitter between print queue window and log windows reintroduced.
+- Helpfile updated but it's not yet complete.
+
+
+7.1 - Jan 23, 2002
+============================================================================
+Log Import
+----------
+- Logs greater than approx. 100,000 QSOs were truncated and not completely
+  written. Fixed. Tnx VE6JY. Writing BV7 logs optimized and it is about 10x
+  faster now!
+- BV Version 3 & 4 and Swisslog import wasn't working. Fixed. Tnx DJ9MH.
+- Import of DXBase, OH2GI, OH1AA, FINTEST added again.
+- Number of read errors (faulty QSO's) and duplicate QSO's added to the
+  conversion report.
+- Warning if you want to overwrite a BV log that is still open.
+
+Log Export
+----------
+- ASCII output is fully working now including the fixed column export type.
+
+Log Window
+----------
+- New option "No date" in the "Set QSL sent/rcvd date" dialog. Tnx G4BWP.
+  With this option, the "QSL sent/received" column is not filled with a
+  date when filling the print queue.
+- Changing the QSL sent and received flags (F8/F9) sets the QSL sent and
+  received date now. Setting the flags to "N" or "!", empties the QSL sent and
+  received date.
+- New option: you can fill the entire log with QSL Managers from the BV QSL
+  manager database now if you cannot import your manager information through
+  the log import. Use the "Fill entire log with QSL Managers" command in the
+  Log menu. This automatic function tries to fill only those QSO's that don't
+  have a manager yet. It can be aborted at any time by pressing the Escape
+  key.
+- Changing the log index (F5): When switching from Call index to Date index,
+  the date of the current QSO is taken as default for the date index.
+  New function key Shift-F5 to switch back.
+- Editing a call: if only one QSO is in the log for a call, and that call is
+  edited, after saving the edits, an error window pops up saying "The call
+  does not exist". Fixed. Tnx N3SL.
+- Splash screen changed.
+
+Label Designer
+--------------
+- "Manager" field was mixed up with "My Call" field in datafield properties
+  dialog. Tnx DF2PI.
+- The Log Window couldn't get the focus if there were no logs open and if
+  the Designer Window had the focus.
+
+
+7.2 - Feb 5, 2002
+============================================================================
+Printing
+--------
+A major bug in the print core routine was fixed which had caused a number of
+strange print errors and behavior. Prining ranges of pages and start printing
+at label position # (F12) should work perfectly now.
+
+Configuration
+-------------
+Option "Merge QSOs in print queue and/or from different logs into one label"
+reintroduced. See "Configuration | Sorting". This option is set by default.
+If you have a QSO for e.g. DF3CB in the print queue and if you add another
+QSO for DF3CB later, this additonal QSO is also put on the same label then
+if there are still free QSO lines left. If there are no free QSO lines left,
+a new label is started. If this option is not checked, every additional QSO
+will automatically be printed on a new label.
+
+Log Import
+----------
+- Import of K1EA CT RES Files added again.
+- Import of all YPLog versions now supported. Tnx OK1RR. Import of QSL managers
+  from the log added.
+- The import of all ASCII type logs (ADIF, ASCII text files, Cabrillo, NA, TRLog)
+  plus YPLog is 6x faster now!
+
+
+7.3 - Mar 9, 2002
+============================================================================
+Printing
+--------
+If the print queue was sorted "First in, first out", only one single label
+was printed.
+
+Log Import
+----------
+Several wrong conversions of VHF/UHF/SHF bands/frequencies fixed.
+
+Label Designer
+--------------
+- Configuration: number of QSO and footer lines in the layout settings could
+  differ from the actual number in the layout. Fixed.
+- Line style and mode combo boxes were not filled in frame and shape properties
+  dialogs.
+
+Help file updated and wrong/missing references to help file fixed.
+
+
+7.4 - Jul 1, 2002
+============================================================================
+
+Label Designer
+--------------
+- Layout settings: the window couldn't be closed anymore if the margins
+  exceeded the paper dimensions. Fixed. Additonal help buttons added.
+
+Log Import
+----------
+- Log Conversion Macros reintroduced. Frequently repeated log conversions
+  can be saved as a Macro and repeated at any time. Documentation of this
+  feature will follow.
+- Appending/updating of BV logs revised.
+- If no band information is provided in the import log, frequency information
+  has to be decoded instead. Several UHF/SHF frequencies were not decoded.
+  Fixed.
+- Cabrillo import revised.
+- LogPlus! import is not working everywhere yet. QRX.
+
+Log Import
+----------
+- G4ZFE log output fixed. Band and mode were trimmed so that e.g. CW QSOs
+  were not found in the G4ZFE log search Java applet. Tnx PA9JJ.
+
+New Log Item
+------------
+- Was much too slow. Revised and improved. Tnx N3SL.
+
+Delete Log
+------------
+- BV7 logs can be deleted now by right-clicking into the open log and by
+  chosing the item 'Delete Log' from the popup menu.
+
+7.5 - Aug 7, 2002
+============================================================================
+
+Log Export
+----------
+- ADIF export: each QSO is now one line.
+
+7.6 - May 14, 2006
+============================================================================
+
+General
+-------
+- Compiler change. BV supports Windows versions 2000, ME, 98SE and XP.
+  Windows versions 95 and NT are not supported any more!
+- Warning if no printer installed. Label Designer is disabled then.
+- New bands and modes added
+- Prefix list for automatic Bureau sorting updated (Korea)
+
+Log Window
+----------
+- Navigation in log window easier now
+- Better date and time from / to entry fields
+- New QSL status "I" = Internet
+
+Configuration
+-------------
+- Configuration Window redesigned.
+- Frequencies to be printed on the QSLs can be defined now.
+- Directories Layouts, Logs, Manager, Tmp and User can be set to any 
+  directories now.
+- New import option "Ignore Dupes"
+
+Log Import/Export
+-----------------
+- Continue button
+- Two new Export log types for Internet Logsearch purposes.
+- Bug fix for Swisslog: 2m was imported as 4m.
+- Cabrillo log file extension now *.log instead of *.txt
+
+Batch Input
+-----------
+- Batch Input from Internet OQRS (Online QSL Request System)
+

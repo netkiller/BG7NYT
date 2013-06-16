@@ -1,0 +1,454 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME ="keywords" CONTENT="Linux,Freebsd,Solaris,Sco,HP-UX,IBM-AIX,cisco,oracle,java,cgi,mysql,perl,Apache,proFTP,Sendmail,Qmail,DNS,Squid,Rsync,SSL"> 
+<META NAME="description" CONTENT="陈景峰">
+<link rel="shortcut icon" href="netkiller.ico">
+<link rel="Bookmark" href="favicon.ico">
+<title>netkiller</title>
+<link rel="stylesheet" href="emx_nav.css" type="text/css">
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){ 
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;  
+  this.numberofmenuitems = 7;
+  this.caller = document.getElementById(callname);
+  this.thediv = document.getElementById(divname);
+  this.thediv.style.visibility = startstate;
+}
+
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+    var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+  }
+  theobj.thediv.style.visibility="visible";
+}
+				
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+      shutdiv.style.visibility='hidden';
+    }
+  }
+}
+// -->
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+.style3 {
+	color: #3366FF;
+	font-size: medium;
+}
+.style4 {font-size: medium}
+.style5 {color: #FF00FF}
+-->
+</style>
+</head>
+<body onmousemove="closesubnav(event);"> 
+<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
+<div id="masthead"> 
+<!-- logo -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-4099769163183519";
+google_ad_width = 180;
+google_ad_height = 60;
+google_ad_format = "180x60_as_rimg";
+google_cpa_choice = "CAAQs8X8zwEaCF3TsUAWCLVXKPu_93M";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- logo -->
+
+<!-- banner -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-4099769163183519";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<!-- banner -->
+
+
+  <div id="utility"> 
+    <div align="right">
+		<a href="http://openx.photo.163.com">我的相册</a> | 
+		<a href="http://bg7nyt.photo.163.com">BG7NYT</a> | 
+		<a href="computing/index.html">分布试计算</a> | 
+		
+    </div>
+  </div> 
+  <div id="globalNav"> 
+    <img alt="" src="images/gblnav_left.gif" height="32" width="4" id="gnl"> <img alt="" src="images/glbnav_right.gif" height="32" width="4" id="gnr"> 
+    <div id="globalLink"> 
+      <a href="#" id="gl1" class="glink" onmouseover="ehandler(event,menuitem1);">Linux</a>
+	  <a href="#" id="gl2" class="glink" onmouseover="ehandler(event,menuitem2);">BSD</a>
+	  <a href="#" id="gl3" class="glink" onmouseover="ehandler(event,menuitem3);">Postfix</a>
+	  <a href="#" id="gl4" class="glink" onmouseover="ehandler(event,menuitem4);">PostgreSQL</a>
+	  <a href="#" id="gl5" class="glink" onmouseover="ehandler(event,menuitem5);">DocBook</a>
+	  <a href="#" id="gl6" class="glink" onmouseover="ehandler(event,menuitem6);">LaTeX</a>
+	  <a href="#" id="gl7" class="glink" onmouseover="ehandler(event,menuitem7);">Distributed Computing</a> 
+    </div> 
+    <!--end globalLinks--> 
+  </div> 
+  <!-- end globalNav --> 
+  <div id="subglobal1" class="subglobalNav"> 
+    <a href="http://www.chinaunix.net">www.chinaunix.net</a> | 
+	<a href="http://www.linuxeden.com">www.linuxeden.com</a> | 
+	<a href="http://www.chinalinuxpub.com">www.chinalinuxpub.com</a> | 
+	<a href="http://www.linuxforum.net">www.linuxforum.net</a> | <a href="#">subglobal1 link</a> | <a href="#">subglobal1
+    link</a> | <a href="#">subglobal1 link</a> 
+  </div> 
+  <div id="subglobal2" class="subglobalNav"> 
+    <a href="http://www.cnfug.org">www.cnfug.org</a> | 
+	<a href="#">subglobal2 link</a> | <a href="#">subglobal2
+    link</a> | <a href="#">subglobal2 link</a> | 
+	<a href="#">subglobal2 link</a> | <a href="#">subglobal2
+    link</a> | <a href="#">subglobal2 link</a> 
+  </div> 
+  <div id="subglobal3" class="subglobalNav"> 
+    <a href="http://www.postfix.org.cn">www.postfix.org.cn</a> | <a href="http://www.postfix.org">www.postfix.org</a> | <a href="#">subglobal3
+    link</a> | <a href="#">subglobal3 link</a> | <a href="#">subglobal3 link</a> | <a href="#">subglobal3
+    link</a> | <a href="#">subglobal3 link</a> 
+  </div> 
+  <div id="subglobal4" class="subglobalNav"> 
+    <a href="http://www.pgsqldb.org">www.pgsqldb.org</a> | 
+	<a href="http://www.postgresql.org">www.postgresql.org</a> | <a href="#">subglobal4 
+    link</a> | <a href="#">subglobal4 link</a> | <a href="#">subglobal4 link</a> | <a href="#">subglobal4
+    link</a> | <a href="#">subglobal4 link</a> 
+  </div> 
+  <div id="subglobal5" class="subglobalNav"> 
+    <a href="http://www.oreilly.com/catalog/docbook/chapter/book/">DocBook: The Definitive Guide</a> | 
+	<a href="http://opensource.bureau-cornavin.com/crash-course/">Writing Documentation Using DocBook</a> | 
+	<a href="http://www.dpawson.co.uk/docbook/index.html">Docbook Frequently Asked Questions</a> | 
+	<a href="http://www.study-area.org/tips/docw/docwrite.html">DocBook 文件寫作入門</a> | 
+	<a href="http://dev.w3.org/cvsweb/XML/test/Docbook/">SGML标记实例</a> | 
+	<a href="#">subglobal5 link</a> 
+  </div> 
+  <div id="subglobal6" class="subglobalNav"> 
+    <a href="http://learn.tsinghua.edu.cn/homepage/2001315450/">王垠的个人主页</a> | 
+	<a href="http://www.huihoo.com/open_source/software_release/index.html">自由软件发布方法惯例</a> | 
+	<a href="http://www.ctex.org/">CTEX</a> | 
+	<a href="http://www.chinatex.org/">ChinaTeX</a> | 
+	<a href="http://www.emerson.emory.edu/services/latex/latex2e/latex2e_toc.html">LaTeXe help 1.4</a> | 
+	<a href="#">subglobal6 link</a> | 
+	<a href="#">subglobal6 link</a> | 
+	<a href="#">subglobal6 link</a> 
+  </div> 
+  <div id="subglobal7" class="subglobalNav"> 
+    <a href="http://www.equn.com/">中国分布式计算总站</a> | 
+	<a href="http://boinc.berkeley.edu/">BOINC(伯克利开放式网络计算平台)</a> | 
+	<a href="http://setiathome.ssl.berkeley.edu/">SETI@home(搜索地外文明)</a> | 
+	<a href="http://folding.stanford.edu/">Folding@Home(研究蛋白质折叠、聚合以及相关疾病)</a> | 
+	<a href="http://fightaidsathome.scripps.edu">FightAIDS@home</a>, <a href="http://www.d2ol.com">D2OL</a>, <a href="http://www.ud.com/">United Devices</a>(生物、医药类项目)| 
+	<a href="http://www.climateprediction.net/">地理、气象类项目</a> | 
+	<a href="http://www.evolutionary-research.org/">Evolution@home（模拟物种进化与灭亡）</a> | 
+	<a href="http://www.lifemapper.org/">Lifemapper@home（生态地图）</a> | 
+	<a href="http://www.distributed.net/">http://www.distributed.net/</a> 
+  </div> 
+  <div id="subglobal8" class="subglobalNav"> 
+    <a href="#">subglobal8 link</a> | <a href="#">subglobal8 link</a> | <a href="#">subglobal8
+    link</a> | <a href="#">subglobal8 link</a> | <a href="#">subglobal8 link</a> | <a href="#">subglobal8
+    link</a> | <a href="#">subglobal8 link</a> 
+  </div> 
+</div> 
+<script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(7,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+			var menuitem6 = new menu(7,6,"hidden");
+			var menuitem7 = new menu(7,7,"hidden");
+    // -->
+    </script> 
+<!-- end masthead --> 
+<div id="pagecell1"> 
+  <!--pagecell1--> 
+  <img alt="" src="images/tl_curve_white.gif" height="6" width="6" id="tl"> <img alt="" src="images/tr_curve_white.gif" height="6" width="6" id="tr"> 
+  <div id="breadCrumb"> 
+  Hello CQ DE BG7NYT Stand by 438.525Mhz</div> 
+  <div id="pageName"> 
+    netkiller 重出江湖！ 一年多没和大家见面，这一年我开始新的生活，玩户外，摄影，无线电．．．
+    </h2> 
+    <a href="release/plug/index.html"><img src="images/new.jpg" alt="small logo" width="71" height="64" border="0"/></a> </div> 
+  <div id="pageNav"> 
+    <div id="sectionLinks">
+	<a href="article/postgres/">PostgreSQL 实例参考</a>
+	<a href="article/postfix/">Postfix Solution</a>
+	<a href="article/pureftpd/">PureFTPD</a>
+	<a href="article/ftpserver/index.html">ProFTPD</a>    
+    <a href="http://www.9812.net/book/subversion/">Subversion</a>
+	<a href="article/R/">R Language</a> 
+	</div> 
+    <div class="relatedLinks"> 
+      <h3> Service：</h3> 
+	  <a href="service/index.html">批量简繁转换服务</a>
+	  <a href="release/plug/index.html">写作工具</a>
+    </div> 
+    <div class="relatedLinks"> 
+      <h3>写作计划:</h3> 
+		<a href="article/postgres/PostgreSQL%20In%20Enterprise.htm">PostgreSQL In Enterprise</a>
+		<a href="book/iptables/">Linux Iptable Firewall</a> 
+		<a href="article/openldap/">实战OpenLDAP(框架草搞)</a>
+	</div>
+    <div id="advert">
+      <a href="resume/resume.htm">我的简历</a></div> 
+    <div>
+<table border='0' cellspacing='0' cellpadding='0' width='200'>
+  <tr><td align='center' style='background-color: #E0ECE2; border-top: 1px solid Black; border-left: 1px solid Black; border-right: 1px solid Black;'><span style='font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold;'>Netkiller <img src='http://web.icq.com/whitepages/online?icq=101888222&img=5' border='0' width='18' height='18' align='absmiddle'> 101888222</span></td></tr><tr><td><a href='http://go.icq.com' target='icq2go'><img src='http://public.icq.com/public/panels/icq2go/images/start_button2.gif' width='200' height='38' border='0'></a><br><a href='http://web.icq.com/whitepages/add_me?uin=101888222&action=add'><img src='http://public.icq.com/public/panels/icq2go/images/add.gif' width='100' height='32' border='0'></a><a href='http://web.icq.com/whitepages/about_me?Uin=101888222' target='icq2go'><img src='http://public.icq.com/public/panels/icq2go/images/about.gif' width='100' height='32' border='0'></a><br><a href='http://web.icq.com/whitepages/message_me?uin=101888222&action=message'><img src='http://public.icq.com/public/panels/icq2go/images/message.gif' width='100' height='30' border='0'></a><a href='http://web.icq.com/wwp?Uin=101888222#pager' target='icq2go'><img src='http://public.icq.com/public/panels/icq2go/images/page.gif' width='100' height='30' border='0'></a></td></tr>
+  <tr> 
+    <td align='center'>
+<!-- Begin AIM Remote -->
+	 
+		<table width=123 cellspacing=0 cellpadding=0 border=0>
+
+	<tr>
+	    <td width=123 height=40><img src=http://cdn.aim.com/remote/i/voceanhd.gif width=123 height=40 border=0></td>
+
+	</tr>	<tr><td width=123 height=38><a href="aim:goim?screenname=bg7nyt&message=Hi.+Are+you+there?"><img src=http://cdn.aim.com/remote/i/vocean1.gif width=123 height=38 border=0 alt="I am Online"></a></td></tr>
+	<tr><td width=123 height=38><a href="aim:addbuddy?screenname=bg7nyt"><img src=http://cdn.aim.com/remote/i/vocean2.gif width=123 height=38 border=0alt="Add me to your Buddy List"></a></td></tr>
+	<tr><td width=123 height=38><a href="aim:gochat?roomname=bg7nyt+Chat"><img src=http://cdn.aim.com/remote/i/vocean3.gif width=123 height=38 border=0 alt="Join my Chat Room"></a></td></tr>
+	<tr><td width=123 height=38><a href="mailto:openunix@163.com"><img src=http://cdn.aim.com/remote/i/vocean4.gif width=123 height=38 border=0 alt="Send me E-mail"></a></td></tr>
+
+	<tr>
+
+	    <td width=123 height=81><a href=http://www.aim.com/remote/index.adp><img src=http://cdn.aim.com/remote/i/vocean_foot1.gif width=123 height=31 border=0></a><a href=http://aim.aol.com/aimnew/NS/congratsd2.adp?promo=106695><img src=http://cdn.aim.com/remote/i/vocean_foot2.gif width=123 height=50 border=0></a></td>
+
+	</tr>
+
+	</table>
+<!-- Begin AIM Remote -->
+	
+	
+</td>
+</tr></table>
+	</div> 	
+	<div align="center">
+<!--
+Skype 'My status' button
+http://www.skype.com/go/skypebuttons
+-->
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<a href="skype:bg7nyt?call"><img src="http://mystatus.skype.com/balloon/bg7nyt" style="border: none;" width="150" height="60" alt="My status" /></a>      
+       
+	</div>
+  </div> 
+  <div id="content"> 
+
+<!-- Search Google -->
+<center>
+<form method="get" action="http://www.google.com/custom" target="_top">
+<table bgcolor="#ffffff">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="middle"></img></a>
+<input type="text" name="q" size="31" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="搜索"></input>
+<input type="hidden" name="client" value="pub-4099769163183519"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="GB2312"></input>
+<input type="hidden" name="oe" value="GB2312"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+<input type="hidden" name="hl" value="zh-CN"></input>
+</td></tr></table>
+</form>
+</center>
+<!-- Search Google -->
+
+
+    <div class="feature"> 
+      <table width="100%" border="0">
+        <tr>
+          <td height="18" colspan="2"><span class="style1">注：转载文档同时，请附上文档出处的连接，我会经常更新文档. </span></td>
+        </tr> 
+        
+        <tr>
+          <td height="18" colspan="2"><a href="cw.html">CW Communcator 操作指南</a> <span class="style1">May 12, 2006</span></td>
+        </tr> 
+         <tr>
+          <td height="18" colspan="2" class="style1"><hr size="1"></td>
+        </tr>
+
+        <tr>
+          <td height="18" colspan="2"><a href="download/video/subversion.wmv">Subversion 安装指导Video版</a> <span>August 24, 2004</span></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><a href="release/plug/index.html">DocBook,Latex,Python,Iptables Plug for Macromedia Dreamweaver MX 2004</a> <span >July 27, 2004</span></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><a href="article/member/">会员管理系统（很久以前做的，现在拿出来和大家分享，不然就烂掉了）</a><span >2004-06-29</span></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><a href="article/subversion/Dreamweaver-subversion.htm">Macromedia Dreamweaver MX 2004 + WebDAV +Subversion</a> 2004-06-22</td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><p><a href="article/subversion/subversion.htm">How to install Subversion(Version Control with Subversion) under RedHat Linux.</a> 2004-05-31</p></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"> <a href="article/INN/">How to Install and Configure INN 
+under RedHat Linux </a> 2004-5-9</td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><a href="article/postfix/">Postfix 完整解决方案</a> </td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><span class="style1"><a href="article/postgres/">PostgreSQL 实例参考</a> <a href="article/postgres/postgresql.pdf">PDF</a> （320页） 2004-3-18</span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="article/corba/">Python + Corba + PostgreSQL How To　草稿</a></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2" class="style1"><hr size="1"></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"><a href="article/whois.html">whois cn域名查询 PHP程序</a> 2003-10-18 <a href="article/postgres/postgresql.htm"></a></td>
+        </tr>
+        <tr>
+          <td height="18" colspan="2"> <a href="article/pureftpd/">Pure-FTPd + LDAP + MySQL + PGSQL + Virtual-Users + Quota How To</a> <font color="#FF0000">(第二版)2003-07-24</font></td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="release/stable/NewsGroup/index.html">News Group,Usenet 源码下载(Jsp + Java Bean) <font color="#FF0000">2003-07-07</font></a></td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="release/stable/netkiller/doc/readme.html">Netkiller 管理工具 <font color="#FF0000">2003-06-30</font></a> 支持pureftpd.schema,postfix.schema和产生unix like shadow 密码功能</td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="release/site/doc/readme.html">OpenLDAP 管理工具 <font color="#FF0000">2002-1-8</font></a> 测试版 (支持GB18030)</td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="release/site/release.html">Web2FTP Client 2002-12-29</a> 测试版</td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="release/pic/site/release.html">OpenLDAP 管理工具 2002-12-21</a> 测试版 </td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="article/ftpserver/index.html">ProFTPD + MySQL / OpenLDAP 用户认证</a> 2002-12-17</td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="Resource/visioweb/visioweb.rar">移动站点-动态IP，网站发布分析</a><a href="article/%D2%C6%B6%AF%D5%BE%B5%E3/Dpwsp.vsd">（Visio图）</a><font color="#FF0000">2002-11-14</font></td>
+        </tr>
+        <tr>
+          <td height="23" colspan="2">
+            <hr size="1"></td>
+        </tr>
+        <tr>
+          <td height="5" colspan="2"><a href="article/rmeml.html"><span class="3dfont">查找文件并删除 </span></a></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/apachetomcat.html">Apache Tomcat 启动脚本</a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/oracle.html">Oracle 817 启动脚本 </a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/gcc-mysql.htm">gcc批量建mysql库表的东东我写的大家欣赏？</a> </span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/pc-nfs.htm">win与linux间的通讯除了Samba之外的另一种方案。</a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/site.htm" target="_blank">一个具有站点导航及窥视，管理功能的工具。</a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/w2k_linux.html">Win2000 Server 与 Redhat Linux 7.1 共存方案之分区</a>（不使用第三方公司的分区工具） </span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/raid/RAID_Card.htm">Adaptec 2100S RAID 卡 快速安装指南</a> </span></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <hr size="1">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/cvs/jcvs522_linux_cvs.htm">Linux CVS Server与jCVS Client进行分布式开发</a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="3dfont"><a href="article/cvs/index.htm"><font color="#FF0000">Linux CVS Server + jCVS-5.3.2 Client分布式开发 第二版</font></a></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="download/myshells/cvs.tar.gz">CVS管理脚本（CVS服务器安装，添加用户，删除用户，修改密码）</a></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="article/cvs/cvsadmin-gui.html">CVS用户管理工具（添加用户，删除用户，修改密码） </a><font color="#FF0000">2002-10-16</font></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="Resource/defaultroot/index.html">CVS用户管理工具 Java Web Start </a><font color="#FF0000">2002-10-20</font></td>
+        </tr>
+        <tr>
+          <td height="21" colspan="2">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="3dfont"><a href="article/domain/domain.htm">虚拟域名系统详解</a></span></td>
+        <td><span class="3dfont"><a href="Resource/umlweb/index.html">虚拟域名系统</a></span><a href="Resource/umlweb/index.html">(UML)</a><font color="#FF0000">2002-11-9</font></td>
+        </tr>
+        <tr>
+          <td colspan="2"><A HREF="article/adsl/ADSL.htm">我家的ADSL 接入方案</A></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="article/hrbstar/index.html">校园网架站方案</a>（我99年做的方案）</td>
+        </tr>
+        <tr>
+          <td colspan="2"><div align="right"><a href="article/index.html">more&gt;&gt;&gt;</a></div></td>
+        </tr>
+      </table>
+    </div> 
+    <div class="story"> 
+     	<!--
+	  <table width="600" border="0">
+        <tr>
+          <td width="519"><span class="style3">mirror</span></td>
+        </tr>
+        <tr>
+          <td>
+           	
+          	<p class="style4"> rsync <a href="rsync://www.9812.net/netkiller">rsync://www.9812.net/netkiller<br>
+             </a>rsync -vzrtopg --progress --delete www.9812.net::netkiller /var/www/html/www.9812.net<a href="rsync://www.9812.net/netkiller"><br>
+             </a></p>          
+         
+          </td>
+        </tr>
+      </table>   
+            -->
+    </div> 
+   <div id="siteInfo">     <a href="#">About Us</a> | <a href="#">Site
+    Map</a> | <a href="#">Privacy Policy</a> | <a href="about/neo%20chen.vcf">Contact Us</a><br> 
+ Copyright &copy; 2002-2004 netkiller  All Rights Reserved</div> 
+</div> 
+<!--end pagecell1--> 
+<div align=center> 
+<hr size="1">
+
+  </div> 
+</div> 
+
+<br> 
+
+</body>
+</html>

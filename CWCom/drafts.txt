@@ -1,0 +1,20 @@
+Prado 安装与配置
+
+Prado 主页
+http://www.xisc.com/
+http://www.pradosoft.com/
+
+单击Download按钮下载
+
+prado-x.x.x.zip
+
+安装 Prado
+
+解压到Apache下.通过http://127.0.0.1/prado/访问
+demo http://127.0.0.1/prado/demos/
+
+
+Included Demos
+
+    * Prado QuickStart Tutorial
+    * Prado Component Writer

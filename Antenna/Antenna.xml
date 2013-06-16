@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alexander Falk (Altova, Inc.) -->
+<!-- DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+               "http://www.altova.com/schemas/docbook/docbookx.dtd" [
+	<!ENTITY xmlspy "<emphasis><trademark>xmlspy</trademark> 5</emphasis>">
+	<!ENTITY xmlspy_home "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Home Edition">
+	<!ENTITY xmlspy_pro "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Professional Edition">
+	<!ENTITY xmlspy_enterprise "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Enterprise Edition">
+	<!ENTITY stylevision "<emphasis><trademark>stylevision</trademark> 5</emphasis>">
+	<!ENTITY authentic "<emphasis><trademark>authentic</trademark> 5</emphasis>">
+	<!ENTITY authentic_desktop "<emphasis><trademark>authentic</trademark> 5</emphasis> Desktop Edition">
+	<!ENTITY authentic_browser "<emphasis><trademark>authentic</trademark> 5</emphasis> Browser Edition">
+	<!ENTITY authentic_eforms "<emphasis><trademark>authentic</trademark> 5</emphasis> eForms Edition">
+] -->
+<?altova_sps http://www.altova.com/sps/template/publishing/DocBook.sps?>
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/docbook/xhtml/docbook.xsl"?>
+<book>
+	<bookinfo>
+		<title>Amateur Radio And Antenna</title>
+		<author>
+			<firstname>BG7NYT</firstname>
+			<surname>陈景峰</surname>
+			<affiliation>
+				<address>
+					<email>bg7nyt(at)163(dot)com</email>
+				</address>
+			</affiliation>
+		</author>
+		<copyright>
+			<year>2006</year>
+			<holder>bg7nyt</holder>
+		</copyright>
+		<abstract><title>文档写作计划,大家来参与</title>
+		<literallayout>
+			<![CDATA[
+我以前想写完这个文档.目前的文中的内容是转载的.
+
+http://netkiller.hikz.com/bg7nyt/antenna/
+
+我经验还有知识还不足已完成这篇文档.
+
+大家多帮忙,多出力哈哈..
+
+现招募有Docbook,Latex,Subversion,CVS,Diff 等使用经验的Ham
+
+对这个计划有兴趣的朋友. 先回个贴报名.我有时间搞一个项目管理站点.
+
+这篇文章是使用Docbook编写的,因为Office Word当文件增大到10M时就会出问题,也不方便在网络环境下
+
+多人写作.
+
+我们的写作方式与开源社区方式一样.
+
+1,首先大家讨论文章的结构,章,节,段,确定后就可以开工了..
+2,参与者,申请一个章节,安装基本的Subversion,Diff.首先用svn checkout服务器上的文档.然后开始写
+
+作,完成后提交给服务器.在多人同时修改一个文章时会有冲突,这时要用diff来比较,合并文件再提交.
+
+Neo Chan (netkiller)
+Best Regards, VY 73! DE BG7NYT
+------------------------------------------------------
+Personal Amateur Radiostations of P.R.China
+ZONE CQ24 ITU44 ShenZhen,China
+Amateur Radio Callsign: BG7NYT
+TRX: YAESU FT-60R VHF/UHF Dual Band(144-430) TRANSCEIVER
+			
+			]]>
+		</literallayout>
+			<para><ulink url="http://groups.google.com/group/bg7nyt">邮件列表</ulink></para>
+		</abstract>
+	</bookinfo>
+	<dedication>
+			<para><screen>
+
+			</screen>
+			 </para>
+		<para>参考：<ulink url="http://www.qsl.net/bd5hag/ChinaFM/ant/index.html">完全天线手册</ulink></para>
+	</dedication>	
+	<preface>
+		<title>Preface</title>
+		<para>Your book may have a preface, in which case it should be placed
+      here.</para>
+	</preface>
+
+	<chapter id="chapter.1">
+		<title>基本概念</title>
+		<para>天线是FM DX的耳朵，微弱的电波从天线经过馈线进入接收机，才能让我们听到远方电台的声音。一个接收系统的好坏，天线占了一半。我们希望天线能有高的增益，把微弱的信号变得响亮，我们希望天线能有一定的选择能力，把传呼台干扰和本地强台挡在外面，我们希望天馈系统尽量减小损耗，把每一微伏的信号都送到接收机的前端。 
+	对于大多数使用便携式收音机来收听FM DX的人说，他们的天线也许只是收音机上的拉杆天线，这样的天线虽然简单方便，但是对于FM DX来说，无论如何是不够的，尽管拜电离层的恩赐，这样的天线系统也不是没有可能接收到DX信号。 </para>
+		<para>我将介绍一些常见而且容易自制的天线，这些天线能够用我们日常生活中容易得到的材料制作。我会逐一制作这些天线，将制作的过程拍成照片，并给出尽可能详细的尺寸数据。尽管我在制作过程中会动用天线分析仪甚至是综合测试仪等设备，但是我将告诉读者不使用这些昂贵仪器的调试方法。至少，完全按照我的材料、尺寸总不会错。 </para>
+		<section>
+			<title>电波</title>
+			<para>在讲天线之前，不能不先提一提电波。 
+	我们制作天线的目的是为了捕捉电波，因此，在考虑天线的问题之前，绝对有必要先研究一下电波的问题。 
+	
+	FM广播波段，频率上是从87.5MHz到108MHz，对应的波长是3.4米到2.7米，一般称做3米波段，是VHF（Very High Frequency）的一段。这个波段以下，54MHz到87.5MHz是电视广播波段，以上，108MHz到136MHz是航空通讯波段。VHF波段的电波传播，主要有三种途径： 
+	</para>
+	
+			<section>
+				<title>直接波</title>
+				<para>这是指从发射天线到接收天线之间，不经过任何发射，直接到达，电波就象一束光一样，所以有人称它为视线传播。视线传播这个名字也表明了这种传播方式能够传播的距离不远。这有两个原因，首先是电波从发射点出发，其能量是以幂级数递减的，而接收机要能良好地解调出广播，需要一定的信号强度。所以太远的地方，信号太弱，不足以解调。如果只是这个原因，那么拼命提高发射功率或增加接收天线的增益，也许就可以扩大收听的范围了。但是，还有一个重要的问题是，地球是圆的，在地球上任何一点发出的电波，按直线前进的方向，最终将离开地球射向天空。主要是由于第二个原因，一般地讲，地面上一个发射台发出的直线波，只能传播到70km远处地面上的接收处。如果双方的高度增加，那么这个距离还可以增加，但总是有限的。所以，70km，是本地收听的极限，实际上，由于山脉、丘陵、房屋的阻挡、反射，这个距离还要大打折扣，一般可以估计的距离是35km。</para>
+			</section>
+			<section>
+				<title>电离层发射波</title>
+				<para>这是指电波通过电离层的发射达到接收方。这里面的名堂很多。电离层本身是有多个层次的，支持短波（1.8MHz到30MHz）反射的电离层是F1和F2层。F1和F2并不是甘心反射所有的无线电波，它们能反射的最高频率是有限的，超过这个频率的电波完全得不到反射，而是穿过电离层射向太空。如果没有这个特性，那么通讯卫星就不可能存在了，通讯卫星就是在电离层外工作的。这个最高频率叫作MUF（Max Usable Frequency）。 MUF与很多因素有关，主要是和太阳黑子活跃程度以及季节有关。太阳黑子活跃，MUF就高，天气热，MUF也高。MUF最高能高到多少呢？一般在太阳黑子活跃期的夏天，MUF在20MHz到 40MHz之间，很少超过50MHz。在低的时候甚至会低到10MHz以下。但是在太阳黑子异常活跃的时候，MUF也有可能偶然达到100MHz。这时候，就有可能通过F层发射收到DX FM了。但是这不是FM DX的主要形式，FM DX主要是通过另外一个电离层E层。本来E层的出现是破坏F层，所以我们不妨记F层为Friend层，E层为Enemy层。但是Es层的出现，却会形成一个短期内密度极高的反射层。反射层的密度高，意味着能更好地反射电波。所以Es层开通的时候，DX电台的信号会异常地强。在6米和10米业余波段工作的业余电台都知道， Es层开通的时候，很小的功率，甚至5W，也有可能做DX联络。Es的开通，主要是提供了 800km以内电波的传播路径。由于信号很强，其实很多时候并不需要很好的设备就可以接收，需要的是耐心和运气。除了这两种反射，FM DX还有可能通过对流层反射和流星余迹到达你的接收机。</para>
+			</section>
+			<section>
+				<title>地波和大气波导</title>
+				<para>本来来说，理论上VHF是不存在地波的。但是无数的实践表明，VHF 也存在着某种程度的地波传播。所以我们能稳定地接收200km左右电台的信号。江苏和安徽两省的业余电台，每年国庆的时候都进行全省VHF移动通讯实验，也证明了VHF电波可以在200km左右的距离得到传播。大气波导是另外一种可能传播VHF电波的手段，不过人们研究得还不够多。 
+		既然存在着这些可能，那么如何知道我收到的信号是以什么方式来的呢？一般来说，如果收到的信号来自70km以内的电台，基本上可以认为是直接波；如果是200km以内，而且信号稳定（不一定强），那么大概是地波；如果是800km以内，信号很强，但是极不稳定，而且偶尔才出现，多半是Es层传播；如果距离更远，信号很弱，大概是F层或其他形式的电离层传播了。 
+		知道这些有什么用呢？用处在于帮助我们选择对天线的要求。比如，F层的传播有一个特点是越距，大约500km以内的电台是不可能通过F层的传播来的，这个距离内的电台信号只能以Es层来。就象在杭州想要接收台湾的FM电台信号，只能PNP（Plug and pray），等 Es层，那么天线就要考虑适合Es层的特点。 
+		
+		还有一个很重要的因素是极化方式，这是很容易被很多爱好者忽略的问题。电波的极化方式有三种：水平极化、垂直极化和圆极化。不管理论上怎么计算，简单的判断方法，就是看振子的方向，振子是水平放的就是水平极化，垂直的就是垂直极化，圆极化不用在 FM广播，可以不管。极化方式之所以重要，是因为要求发射方与接收方的极化方式必须一致，才能有好的接收效果。我国广播的极化方式是水平极化，所以，接收天线也应水平架设。如果极化方式不一致，会有10dB到20dB的损失。可是，经过电离层的反射过来的电波，早就被反射得七荤八素、颠三倒四，说不定是什么极化方式了。所以，接收DX信号，其实垂直极化也不错，附带的一个好处，就是可以削弱本地电台的影响。 
+		</para>
+			</section>
+		</section>
+			<section>
+			<title>天线的特性</title>
+			<para>天线的特性</para>
+			<section>
+				<title>共振</title>
+				<para>任何天线都谐振在一定的频率上，我们要接收哪个频率的信号，就希望天线谐振在那个频率上。天线谐振是对天线最基本的要求，要不然，就没那么多讲究了，随便扔根线出去不也是天线嘛。 
+	天线的谐振问题涉及到的主要数据是波长及其四分之一。计算波长的公式很简单，300/f。其中f的单位是MHz，而得到的结果的单位是米。1/4波长是称作基本振子，如偶极天线是一对基本振子，垂直天线是一根基本振子。 
+	
+	不过天线中的振子的长度并不正好是1/4波长，因为电波在导线中行进的速度与在真空中的不同，一般都要短一些，所以有一个缩短因子。这个因子取决于材料。 
+	</para>
+			</section>		
+			<section>
+				<title>带宽</title>
+				<para>这也是一个重要但容易被忽略的问题。天线是有一定带宽的，这意味着虽然谐振频率是一个频率点，但是在这个频率点附近一定范围内，这付天线的性能都是差不多好的。这个范围就是带宽。 
+	我们当然希望一付天线的带宽能覆盖一定的范围，最好是我们所收听的整个FM广播波段。要不然换个台还要换天线或者调天线也太麻烦了。 
+	
+	天线的带宽和天线的型式、结构、材料都有关系。一般来说，振子所用管、线越粗，带宽越宽；天线增益越高，带宽越窄。 
+	</para>
+			</section>
+			<section>
+				<title>阻抗</title>
+				<para>天线可以看做是一个谐振回路。一个谐振回路当然有其阻抗。我们对阻抗的要求就是匹配：和天线相连的电路必须有与天线一样的阻抗。和天线相连的是馈线，馈线的阻抗是确定的，所以我们希望天线的阻抗和馈线一样。一般生产的馈线，主要是300欧姆、75欧姆和50欧姆三种阻抗，国外过去还有450欧姆和600欧姆阻抗的馈线。 
+	基本偶极天线的阻抗是75欧姆左右，V型偶极天线是50欧姆左右，基本垂直天线阻抗 50欧姆。其他天线一般阻抗都不是50或75欧姆，那么在把它们与馈线连接之前，需要有一定的手段来做阻抗变换。 </para>
+			</section>			
+			<section>
+				<title>平衡</title>
+				<para>对称的天线是平衡的，如偶极天线、八木天线，而同轴电缆是不平衡的，把这两者连接起来，就需要解决平衡不平衡转换的问题。 </para>
+			</section>		
+			<section>
+				<title>增益</title>
+				<para>天线是无源器件，但是天线是可以有增益的。这个增益当然是相对增益，是相对于基本偶极天线而言的。FM DX所用的天线，当然希望增益越高越好。不过别忘了，增益高往往伴随着带宽窄。 </para>
+			</section>		
+			<section>
+				<title>方向性</title>
+				<para>不是所有的天线都有方向性的。便携式收音机上的拉杆天线就没有方向性。偶极天线有弱的方向性，八木等定向天线可以得到较好的方向性。好的方向性意外着能够集中收集所需方向的电波，还有一个重要的能力就是能部分地减弱本地电台信号的影响。 
+	但是定向天线并不是什么情况下都好。当没有目标而等待的时候，定向天线就有可能使你错过天线背面的信号。所以比较合理的方式，是用一个垂直天线和一付定向天线配合使用，用垂直天线等待，听到信号后，再用定向天线转过去对准了听。 
+	</para>
+			</section>		
+			<section>
+				<title>仰角</title>
+				<para>天线的仰角是指电波的仰角，而并不是天线振子本身机械上的仰角。仰角反映了天线接收哪个高度角来的电波最强。对于F层传播，我们希望仰角低，可以传播地远，对于 Es层，电波主要是从高处来，我们希望仰角高。 
+	仰角的高低取决于天线型式和架设高度。一般来说，垂直天线具有低仰角，其他天线的仰角随架设高度变化。 </para>
+			</section>										
+			<section>
+				<title>架设高度</title>
+				<para>天线有一个架设高度。这个高度实际上是两个高度，一个高度我们考虑它的水平面高度，这个高度对于本地信号有些用，对于DX其实用处不大。第二个常常被忽略的高度是地面高度，是指天线到电气地面的高度。比如架设在钢筋水泥房顶的天线，虽然房子高有20米，但是天线距房顶只有1米，那么这付天线的高度只是1米。 
+	天线的高度对不同的天线有不同的影响，一般会影响天线的阻抗和仰角。通常我们认为天线的地面高度应在0.4个波长以上，才比较不受地面的影响。 
+	</para>
+			</section>		
+			<section>
+				<title>驻波比</title>
+				<para>最后介绍这个最不被中国的爱好者熟悉的特征。 
+	驻波比反映了天馈系统的匹配情况。它是以天线作为发射天线时发射出去和反射回来的能量的比来衡量天线性能的。驻波比是由天馈系统的阻抗决定的。天线的阻抗与馈线的阻抗与接收机的阻抗一致，驻波比就小。驻波比高的天馈系统，信号在馈线中的损失很大。 
+	</para>
+			</section>		
+		</section>		
+
+	</chapter>
+	
+	<chapter>
+		<title>材料篇</title>
+		<para>天线制作材料</para>
+		
+		<section>
+			<title>铝型材</title>
+			<para>This is the first section in my book.</para>
+		</section>
+		<section>
+			<title>铜料</title>
+			<para> this is the second section in my book.</para>
+		</section>
+		<section>
+			<title>馈线/馈管</title>
+			<para> this is the second section in my book.</para>
+		</section>		
+	</chapter>
+
+	<chapter>
+		<title>加工篇</title>
+		<para></para>
+		<section>
+			<title>工具</title>
+			<para>This is the first section in my book.</para>
+		</section>
+		<section>
+			<title>焊接/连接</title>
+			<para> this is the second section in my book.</para>
+		</section>
+		<section>
+			<title>固定天线</title>
+			<para> this is the second section in my book.</para>
+		</section>		
+		<section>
+			<title>天线转向器</title>
+			<para> this is the second section in my book.</para>
+		</section>				
+	</chapter>
+	<chapter>
+		<title>安装篇</title>	
+		<section>
+			<title>防雷</title>
+			<para>防雷</para>
+		</section>	
+		<section>
+			<title>塔架</title>
+			<para>塔架</para>
+		</section>
+		<section>
+			<title>天台</title>
+			<para>天台</para>
+		</section>	
+		<section>
+			<title>阳台</title>
+			<para>阳台</para>
+		</section>			
+		<section>
+			<title>车载</title>
+			<para>车载</para>
+		</section>			
+	</chapter>
+	<chapter>
+		<title>定向天线</title>
+		<para/>
+		<section>
+			<title>Moxon</title>
+			<para>
+				<ulink url="http://www.moxonantennaproject.com/">MOXON Antenna Project</ulink>
+			</para>
+			<para>
+				<ulink url="http://www.moxonantennaproject.com/MoxGen.exe">MoxGen.exe</ulink>
+			</para>
+			<para>
+				<graphic fileref="images/moxon/moxgen.jpg"/>
+			</para>
+			<section>
+				<title>计算步骤</title>
+				<para>
+				<procedure>
+					<title>请按下面步骤操作</title>
+					<step>
+						<para>Frequency (频率)</para>
+						<para>输入:435</para>
+					</step>
+					<step>
+						<para>Wire size (线材尺寸)</para>			
+						<para>in (英吋)</para>
+						<para>mm (毫米)</para>
+						<para>AWG </para>
+						<para>输入:#12 选择AWG</para>
+					</step>
+					<step>
+						<para>Calculate (计算)</para>
+						<para>单击这个按钮</para>
+					</step>
+					<step>
+						<para>Results Units (天线单位)</para>
+						<para>Feet 英尺</para>
+						<para>Inches 英吋</para>
+						<para>Meters 米</para>
+						<para>Millimeters 毫米</para>
+						<para>选择Meters/Millimeters即可</para>
+					</step>	
+					<step>
+						<para>天线最终尺寸:</para>
+						<para>A: 247.1mm</para>
+						<para>B: 31.7mm</para>
+						<para>C: 12.5mm</para>
+						<para>D: 47.7mm</para>
+						<para>E: 92.0mm</para>
+					</step>					
+				</procedure>
+				</para>
+			</section>			
+		</section>
+
+
+		<section>
+			<title>Yagi</title>
+			<para>八木天线的单元数接影响了接收范围,单元数越多,则方向越尖锐,增益越高,直距离越远</para>
+			<para>八木天线（Yagi），是因为日本人八木发明而得名。八木天线是经典的定向天线，这张照片是一个垂直极化八木天线，采用折合振子。通常八木天线在使用时应装在有旋转器的铁塔上。旋转器加上铁塔的价格，有时比天线本身还高。</para>
+		</section>
+		
+		<section>
+			<title>HB9CV</title>
+			<para>这种天线叫HB9CV，是瑞士业余电台HB9CV发明，因而得名。日文中另有名字叫“相位差给电天线”。它利用180度相位差，来缩短八木天线振子之间的距离。两单元的HB9CV，能有三单元的八木的增益。</para>
+			<para><ulink url="http://www.dxantech.com/english/antennas.html">http://www.dxantech.com/english/antennas.html</ulink></para>
+		</section>
+	</chapter>
+	
+	<chapter>
+		<title>全向天线</title>
+		<para>全向天线</para>
+		<section>
+			<title>拉杆天线</title>
+			<para>拉杆天线</para>
+			<screen>
+
+			</screen>
+			<para> </para>
+		</section>
+		<section>
+			<title>GP</title>
+			<para>垂直地网天线（Ground Plane）。这种天线制作和架设都很容易，虽然增益不高，但是完全没有方向性，不至于遗漏某个角落的信号，反而成为其优点。另外它的辐射角度低，因此反而适合远距离信号。</para>
+			<section>
+				<title>苗子</title>
+				<para>
+					<ulink url="http://127.0.0.1:8080/jasper-webapp/"> </ulink>
+				</para>
+				<para>
+					<graphic fileref="images/bg7nyt_jasperreports_demo.jpg"/>
+				</para>
+			</section>
+			<section>
+				<title>玻璃钢</title>
+				<para>
+					<ulink url="http://127.0.0.1:8080/jasper-webapp/"> </ulink>
+				</para>
+				<para>
+					<graphic fileref="images/bg7nyt_jasperreports_demo.jpg"/>
+				</para>
+			</section>
+		</section>		
+		
+	</chapter>
+
+	<chapter>
+		<title>My first chapter</title>
+		<para>This is the first chapter in my book.</para>
+		<sect1>
+			<title>My first section</title>
+			<para>This is the first section in my book.</para>
+		</sect1>
+		<sect1>
+			<title>my second section</title>
+			<para> this is the second section in my book.</para>
+		</sect1>
+	</chapter>
+</book>

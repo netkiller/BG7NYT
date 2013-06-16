@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alexander Falk (Altova, Inc.) -->
+<!-- DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+               "http://www.altova.com/schemas/docbook/docbookx.dtd" [
+	<!ENTITY xmlspy "<emphasis><trademark>xmlspy</trademark> 5</emphasis>">
+	<!ENTITY xmlspy_home "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Home Edition">
+	<!ENTITY xmlspy_pro "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Professional Edition">
+	<!ENTITY xmlspy_enterprise "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Enterprise Edition">
+	<!ENTITY stylevision "<emphasis><trademark>stylevision</trademark> 5</emphasis>">
+	<!ENTITY authentic "<emphasis><trademark>authentic</trademark> 5</emphasis>">
+	<!ENTITY authentic_desktop "<emphasis><trademark>authentic</trademark> 5</emphasis> Desktop Edition">
+	<!ENTITY authentic_browser "<emphasis><trademark>authentic</trademark> 5</emphasis> Browser Edition">
+	<!ENTITY authentic_eforms "<emphasis><trademark>authentic</trademark> 5</emphasis> eForms Edition">
+] -->
+<?altova_sps http://www.altova.com/sps/template/publishing/DocBook.sps?>
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/docbook/xhtml/docbook.xsl"?>
+<book>
+	<bookinfo>
+		<title>CW Communcator 操作指南</title>
+		<author>
+			<firstname>BG7NYT</firstname>
+			<surname>陈景峰</surname>
+			<affiliation>
+				<address>
+					<email>bg7nyt(at)163(dot)com</email>
+				</address>
+			</affiliation>
+		</author>
+		<copyright>
+			<year>2006</year>
+			<holder>Copyright BG7NYT</holder>
+		</copyright>
+		<abstract> 
+			<title>CW Communcator 是什么?</title>
+			<para>CW Communcator 是一个利用互联网做QSO的CW(Morse Code)通联软件.</para>
+			<para>CW Communcator 简称CWCom.</para>			
+		</abstract>
+	</bookinfo>
+	<preface>
+		<title>CWCom</title>
+		<para>
+CWCom 是为计算机用户通过互联网实现莫尔斯码聊天的程序. 
+它也同样可以运行在脱机模式下练习莫尔斯码.
+CWCom是32位Windows应用程序. 它可以运行机在所有32位Windows操作系统中从Win95到XP.
+      	</para>
+	</preface>
+	<chapter>
+		<title>安装CWCom</title>
+		<sect1>
+			<title>MRX Software 主页</title>
+			<para><ulink url="http://www.mrx.com.au/">http://www.mrx.com.au/</ulink></para>
+			<para>下载:</para>
+			<para><ulink url="http://www.mrx.com.au/downloads/cwcom_setup.exe">点击下载</ulink></para>
+		</sect1>
+		<sect1>
+			<title>安装</title>
+			<para>每台电脑应该运行它自己应用程序复本, 如果运行的程序来自于网络共享配置文件会发生冲突。</para>
+			<para>按下面步骤安装公司CWCom到你的电脑上</para>
+			<para>
+				运行cwcom_setup.exe程序安装应用程序和桌面图标到你的电脑。
+				单击CWCom图标运行程序.
+			</para>
+			<graphic fileref="images/CWCom_001.jpg" />
+		</sect1>
+		<sect1>
+			<title>卸载</title>
+			<para>1.开始菜单->控制面板->添加删除应用程序</para>
+			<para>2.选择CW Communcator->卸载</para>
+			<para>3.Are you sure you want to remove CW Communcator from your computer? 单击"Yes"按钮</para>
+		</sect1>		
+	</chapter>
+
+	<chapter>
+		<title>配置</title>
+		<para>单击<graphic fileref="images/CWCom_002.jpg" />配置按钮进入CWCom配置菜单</para>
+		<graphic fileref="images/CWCom_003.jpg" />
+		<section>
+			<title>使用键盘模拟电键 - 手键</title>
+			<para>单击"Manual" 单选按钮(手动)</para>
+			<para>单击"Keyboard"单选按钮 (键盘)</para>
+			<para>单击"Close"按钮 (关闭)</para>
+			<graphic fileref="images/CWCom_004.jpg" />
+			<para>你可以使用下箭头键(↓)来模拟电键</para>
+		</section>
+		<section>
+			<title>使用鼠标模拟电键 - 手键</title>
+			<para>单击"Manual" 单选按钮(手动)</para>
+			<para>单击"Mouse"单选按钮 (鼠标)</para>
+			<para>单击"Close"按钮 (关闭)</para>
+			<graphic fileref="images/CWCom_003.jpg" />
+			<para>在主窗口黑色方框区,鼠标指向该区域,单击鼠标即可拍发</para>
+			<para><graphic fileref="images/CWCom_001.jpg" /></para>
+			<para>当鼠标按下时方框内框颜色由黑色变为白色</para>
+			<para><graphic fileref="images/CWCom_006.jpg" /></para>
+		</section>	
+		<section>
+			<title>使用鼠标模拟电键 - 自动键</title>	
+			<para>注:自动键不能使用键盘来模拟</para>
+			<procedure><title>配置步骤</title>
+				<step>
+					<para>单击"lambic" 单选按钮(自动键)</para>
+				</step>
+				<step>
+					<para>单击"Mouse"单选按钮 (默认是鼠标)</para>				
+				</step>
+				<step>
+					<para>单击"Close"按钮 (关闭)</para>
+					<graphic fileref="images/CWCom_004.jpg" />
+				</step>
+				<step>
+					<para>鼠标左键为点".",鼠标右键为划"-"</para>
+					<para>在主窗口黑色方框区,鼠标指向该区域,交替单击鼠标左右键即可拍发</para>
+					<para><graphic fileref="images/CWCom_001.jpg" /></para>
+					<para>当鼠标按下时方框内框颜色由黑色变为白色</para>
+					<para><graphic fileref="images/CWCom_006.jpg" /></para>
+				</step>				
+			</procedure>
+		</section>
+	</chapter>
+	
+	<chapter>
+		<title>电键</title>
+		<ulink url="http://photo.163.com/photos/bg7nyt/">电键图欣赏</ulink>
+		<para>CWCom可以使用COM串口(RS-323)连接电键,具体如下:</para>
+		<para>DB9 – 9 Pin 针串口连接</para>
+		
+		<para>Pin 6 - 手键 或 自动键 左浆 </para>
+		<para>Pin 4 - 手键 或 自动键共用 </para>
+		<para>Pin 8 - 自动键右浆 </para>
+		<para>Pin 7 - 音频输出 </para>
+		<para>Pin 5 - 音频接地 </para>
+
+		<para>DB25 – 25 Pin 25针串口连接</para>
+		
+		<para>Pin 6 - 手键 或 自动键 左浆</para> 
+		<para>Pin 20 - 手键 或 自动键共用 </para>
+		<para>Pin 5 - 自动键右浆 </para>
+		<para>Pin 4 - 音频输出 </para>
+		<para>Pin 7 - 音频接地 </para>
+		
+		<para>DIY 材料:</para> 
+		<para>串口电缆 1条</para>
+		<para><graphic fileref="images/DB9.jpg" /></para>
+		<para>军品插座/麦克风插座 1个 (注:手动使用两个触点的插座,自动键使用三个触点的插座) </para>
+		<para>
+			<graphic fileref="images/connector_jack.jpg" />
+			<graphic fileref="images/connector_jack_1.jpg" /> 
+			<graphic fileref="images/connector_jack_2.jpg" />
+		</para> 
+		<para>电路图如下:</para>
+		<para><graphic fileref="images/morse_key.png" /></para>
+		<para>串口一端连接电脑,另一端剪断露出彩色导线,按彩色焊接即可</para>
+		<section>
+			<title>手键</title>
+			<para>Morse Key区,单击"Manual" 单选按钮(手键)</para>
+			<para>Morse Input区,单击"COM Port"单选按钮 (串口)</para>
+			<para>COM Port区,单击上下箭头或直接输入串口号</para>
+			<para>单击"Close"按钮 (关闭)</para>
+			<graphic fileref="images/CWCom_007.jpg" />
+			<para>插接电键后即可使用电键拍发电码</para>
+		</section>
+		<section>
+			<title>自动键</title>
+			<para>Morse Key区,单击"lambic" 单选按钮(手键)</para>
+			<para>Morse Input区,单击"COM Port"单选按钮 (串口)</para>
+			<para>COM Port区,单击上下箭头或直接输入串口号</para>
+			<para>单击"Close"按钮 (关闭)</para>
+			<graphic fileref="images/CWCom_008.jpg" />
+			<para>插接电键后即可使用自动键拍发电码</para>
+			<para>左浆为点".",右浆为划"-"</para>
+		</section>
+	</chapter>
+	
+	<chapter>
+		<title>Internet 互联网</title>
+		<para>与互联网另一端的Ham做QSO.</para>
+		<section>
+			<title>配置/连接/断开</title> 
+			<para>单击图标 <graphic fileref="images/CWCom_011.jpg" /></para>
+			<para>弹出下面对话框:</para>
+			<para><graphic fileref="images/CWCom_009.jpg" /></para>
+			<para>Channel 频道,这里请建议输入86,因为这是中国区号,大家可以约定在这个频道上做QSO</para>
+			<para>Callsign 呼号,填写你自己的呼号即可</para>
+			<para>单击"Connect" 连接到互联网,同时弹出对话框,列出当前频道上的Ham</para>
+			<para><graphic fileref="images/CWCom_010.jpg" /></para> 
+			<para>单击"Close"按钮返回CWCom主窗口,系统提示: 13:58  DE  IONOSPHERE:	CONNECTED!</para>
+			<para>此时如果有Ham向你发出CQ请求你会从音箱中听到CW的声音,同时在屏幕上出现已经翻译过来的Q简语</para>
+			
+			<para>再次单击图标 <graphic fileref="images/CWCom_011.jpg" /></para> 
+			<para>单击"Disconnect" 断开互联网到脱机模式</para>
+		</section>
+		<section>
+			<title>谁在频道上</title>
+			<para>查看当前频道</para>
+			<graphic fileref="images/CWCom_013.jpg" />
+
+			<para>查看所有频道</para>
+			<graphic fileref="images/CWCom_012.jpg" />
+		</section>
+	</chapter>
+	
+
+</book>

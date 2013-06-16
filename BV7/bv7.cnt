@@ -1,0 +1,140 @@
+1 Cover Page=0_cover_page@bv7.hlp
+1 Introduction
+2 Foreword=0_foreword@bv7.hlp
+2 About the Author=0_about@bv7.hlp
+2 Introduction=0_introduction@bv7.hlp
+2 Copyright Information=0_copyright@bv7.hlp
+1 Installation
+2 Installation=installation@bv7.hlp>Main
+1 Overview
+2 Overview=contents@bv7.hlp>Main
+1 BV Step by Step
+2 BV Step-by-Step=step0@bv7.hlp>Main
+2 Step 1 - Import the first log=step1@bv7.hlp>Main
+2 Step 2 - Main Program Window=step2@bv7.hlp>Main
+2 Step 3 - Log Window(s)=step3@bv7.hlp>Main
+2 Step 4 - Log Search=step4@bv7.hlp>Main
+2 Step 5 - Navigating through the Log=step5@bv7.hlp>Main
+2 Step 6 - The Print Queue=step6@bv7.hlp>Main
+1 BV Log Window
+2 Command Overview=bvform_01@bv7.hlp
+2 File
+3 New log=new_log@bv7.hlp>Main
+3 Open log=open_log@bv7.hlp>Main
+3 Close log=close_log@bv7.hlp>Main
+3 Fill the Print Queue=fill_print_queue@bv7.hlp>Main
+3 Fill the Print Queue and Print=fill_print_queue_and_print@bv7.hlp>Main
+3 Label Print Options=f12@bv7.hlp
+3 Print Preview of Labels=preview@bv7.hlp>Main
+3 Print Labels=print_labels@bv7.hlp>Main
+3 Printer Setup=printer_setup@bv7.hlp>Main
+2 Options
+3 Show Print Queue status=print_queue@bv7.hlp>Main
+3 Empty Print Queue=print_queue_empty@bv7.hlp>Main
+3 Toggle Log Display Index=log_index@bv7.hlp>Main
+3 Set QSL sent flags=qsl_sent_marks@bv7.hlp>Main
+3 Set QSL received flags=qsl_rcvd_marks@bv7.hlp>Main
+3 Set QSL sent/rcvd date=qsl_sent_rcvd_date@bv7.hlp>Main
+3 Answering SWL Cards=swl0@bv7.hlp>Main
+3 Configuration
+4 Configuration Overview=config0@bv7.hlp>Main
+4 Configuration - General=config1@bv7.hlp>Main
+4 Configuration - Combo Boxes=config2@bv7.hlp>Main
+4 Configuration - Sorting=config3@bv7.hlp>Main
+4 Configuration - Print Formats=config4@bv7.hlp>Main
+4 Configuration - Slashed Zero=config5@bv7.hlp>Main
+4 Configuration - Auto Open Logs=config6@bv7.hlp>Main
+4 Configuration - BDE=config7@bv7.hlp>Main
+2 Search
+3 Search for Call, Band, Mode etc.=search_for@bv7.hlp>Main
+3 Filter for QSL sent and received flags=search_for_qsl_sent_rcvd@bv7.hlp>Main
+3 Filter marked QSO's=marked_qsos@bv7.hlp>Main
+3 Wipe search fields=wipe_fields@bv7.hlp>Main
+2 Log
+3 Log Navigation=log_navigation@bv7.hlp>Main
+3 Selecting QSO records=selecting@bv7.hlp>Main
+3 Select row down=select_row_down@bv7.hlp>Main
+3 Select row up=select_row_up@bv7.hlp>Main
+3 Select all QSO's for this Call=select_all_qsos@bv7.hlp>Main
+3 Unselect=unselect@bv7.hlp>Main
+3 Fill Print Queue with selected QSO's=fill_print_quueue_with_selection@bv7.hlp>Main
+3 Fill QSO Record(s) with QSL Manager=fill_manager@bv7.hlp>Main
+3 Fill entire log with QSL Managers=fill_manager_all@bv7.hlp>Main
+3 Mark QSO=mark_qso@bv7.hlp>Main
+3 Remove all QSO Marks=remove_qso_marks@bv7.hlp>Main
+3 Toggle QSL sent/received flags=toggle_qsl_sent_rcvd_flags@bv7.hlp>Main
+3 Log Statistics=log_statistics@bv7.hlp>Main
+3 Footer Lines=footer_lines@bv7.hlp>Main
+3 Log Grid Setup=log_grid_setup@bv7.hlp>Main
+2 Windows
+3 Label Designer=windows_label_designer@bv7.hlp>Main
+3 Tools (Import/Export)=windows_tools@bv7.hlp>Main
+3 QSL Manager Database=windows_manager@bv7.hlp>Main
+3 QSO Edit Window=windows_qso_edit@bv7.hlp>Main
+3 Print Queue Window=windows_print_queue@bv7.hlp>Main
+3 Jumping between Log Windows=windows_jumping@bv7.hlp>Main
+3 Arranging the Log Windows=windows_arranging@bv7.hlp>Main
+3 Reset all Dock Positions=windows_reset_dock_positions@bv7.hlp>Main
+2 Help
+1 BV Label Designer
+2 Label Designer Introduction=bvdes_intro@bv7.hlp
+2 Basic Designer Window Options=bvdes_options@bv7.hlp
+2 Handling Elements=bvdes_handling@bv7.hlp>Main
+2 Layout Elements=bvdes_elements@bv7.hlp
+2 Creating New Layouts=bvdes_new@bv7.hlp>Main
+2 Modifying a Label Layout=bvdes_newlayout@bv7.hlp
+2 Label Designer Command Overview=bvdes_commands@bv7.hlp>Main
+2 Label Frame Properties=bvdes_bandprop@bv7.hlp>Main
+2 Layout Elements
+3 Data Fields=bvdes_elements_fields@bv7.hlp
+3 Text Elements=bvdes_elements_text@bv7.hlp
+3 Expressions=bvdes_elements_expressions@bv7.hlp
+3 Memo Fields=bvdes_elements_memo@bv7.hlp
+3 Shapes=bvdes_elements_shapes@bv7.hlp
+3 Images=bvdes_elements_image@bv7.hlp
+2 Layout Settings
+3 Layout Settings=bvdes_settings@bv7.hlp
+3 Label Type=bvdes_labeltype@bv7.hlp
+3 Paper and Label Size=bvdes_paper_and_label_size@bv7.hlp
+3 Number of QSO and Footer Lines=bvdes_qso_lines@bv7.hlp
+2 Design Tips
+3 Add missing fields automatically=bvdes_missing_fields@bv7.hlp
+3 Adjust all QSO and footer lines=bvdes_adjust@bv7.hlp
+3 Analyze layout settings=bvdes_analyze@bv7.hlp
+3 Create layout template=bvdes_template@bv7.hlp
+1 BV Tools
+2 Tools Overview=tools0@bv7.hlp>Main
+2 BV Tools Wizard
+3 BV Tools Wizard=tools01@bv7.hlp>Main
+3 BV Tools Wizard - Choose Input Log(s)=tools02@bv7.hlp>Main
+3 BV Tools Wizard - Choose Output Log=tools03@bv7.hlp>Main
+3 BV Tools Wizard - Specify fields to be exported=tools04@bv7.hlp>Main
+3 BV Tools Wizard - Write Mode=tools05@bv7.hlp>Main
+3 BV Tools Wizard - Converting...=tools06@bv7.hlp>Main
+3 BV Tools Wizard - Log Macros=tools07@bv7.hlp>Main
+2 ASCII, CSV and dBase Import Specifications
+3 ASCII and CSV File Import Specifications=tools20@bv7.hlp>Main
+3 ASCII and CSV File Import Specifications - Specifications=tools21@bv7.hlp>Main
+3 ASCII and CSV File Import Specifications - Text Type=tools22@bv7.hlp>Main
+3 ASCII and CSV File Import Specifications - Delimited File Type=tools23@bv7.hlp>Main
+3 ASCII and CSV File Import Specifications - Fixed File Type=tools24@bv7.hlp>Main
+3 ASCII and CSV File Import Specifications - Field Mapping=tools25@bv7.hlp>Main
+3 DBase Import Specifications=tools41@bv7.hlp>Main
+3 DBase Import Specifications - Specifications=tools42@bv7.hlp>Main
+3 DBase Import Specifications - Field Mapping=tools43@bv7.hlp>Main
+3 Date Format=tools31@bv7.hlp>Main
+3 Band/Freq Information=tools32@bv7.hlp>Main
+2 Log Types
+3 Import Log Types=tools_logtypes@bv7.hlp>Main
+3 Export Log Types=tools_logtypes_export@bv7.hlp>Main
+3 ADIF - Amateur Data Interchange Format=tools_adif1@bv7.hlp>Main
+3 ADIF Import into BV=tools_adif2@bv7.hlp>Main
+3 Supported Bands=bands@bv7.hlp>Main
+3 Supported Modes and Sub Modes=modes@bv7.hlp>Main
+1 BV QSL Manager Database
+2 QSL Manager Database=managers0@bv7.hlp>Main
+2 QSL Manager Window=managers1@bv7.hlp>Main
+2 QSL Manager Import=managers2@bv7.hlp>Main
+2 Printing the QSL Manager on Labels=managers3@bv7.hlp>Main
+1 Appendix
+1 Glossary

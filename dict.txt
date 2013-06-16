@@ -1,0 +1,7 @@
+&OK 确定(&O)
+&Cancel 取消(&C)
+&Help 帮助(&H)
+&Font 字体(&F)
+&Alignment 对齐(&A)
+Auto&matic word-wrap 自动换行(&m)
+Autosize &width 自动调节宽度(&w)

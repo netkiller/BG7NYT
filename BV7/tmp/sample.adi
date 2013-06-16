@@ -1,0 +1,303 @@
+Sample ADIF file for BV Version 7 - QSL Administration and Label Printing by DF3CB
+<eoh>
+
+<call:6>DL9MBZ <qso_date:8:d>20000424 <time_on:4>1418 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>9A5Y <qso_date:8:d>20000814 <time_on:4>1628 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>UT5JDS <qso_date:8:d>20000814 <time_on:4>1632 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>GW3HGJ <qso_date:8:d>20000814 <time_on:4>1633 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:7>HA5HS/7 <qso_date:8:d>20000814 <time_on:4>1634 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>OE8PAL <qso_date:8:d>20000814 <time_on:4>1634 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>UA4FER <qso_date:8:d>20000814 <time_on:4>1635 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>UU9JH <qso_date:8:d>20000814 <time_on:4>1635 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:9>HB0/DJ9CB <qso_date:8:d>20000814 <time_on:4>1636 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DK9IP <qso_date:8:d>20000814 <time_on:4>1637 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>RD4M <qso_date:8:d>20000814 <time_on:4>1637 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL1IAO <qso_date:8:d>20000814 <time_on:4>1638 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>HB9CGL <qso_date:8:d>20000814 <time_on:4>1639 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LZ2GS <qso_date:8:d>20000814 <time_on:4>1639 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>RW2F <qso_date:8:d>20000814 <time_on:4>1639 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL1IAO <qso_date:8:d>20000814 <time_on:4>1640 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL1IAO <qso_date:8:d>20000814 <time_on:4>1640 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>Z32AF <qso_date:8:d>20000814 <time_on:4>1640 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>HB9CGL <qso_date:8:d>20000814 <time_on:4>1642 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>UR3CMA <qso_date:8:d>20000814 <time_on:4>1642 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LY3BA <qso_date:8:d>20000814 <time_on:4>1643 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DK9IP <qso_date:8:d>20000814 <time_on:4>1649 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DK9IP <qso_date:8:d>20000814 <time_on:4>1649 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL9OT <qso_date:8:d>20000814 <time_on:4>1650 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>EM8I <qso_date:8:d>20000814 <time_on:4>1650 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LY2IJ <qso_date:8:d>20000814 <time_on:4>1650 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>YU1JU <qso_date:8:d>20000814 <time_on:4>1652 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL1ARK <qso_date:8:d>20000814 <time_on:4>1653 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OM4WW <qso_date:8:d>20000814 <time_on:4>1653 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL5DWF <qso_date:8:d>20000814 <time_on:4>1654 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LZ2PL <qso_date:8:d>20000814 <time_on:4>1654 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>UW7I <qso_date:8:d>20000814 <time_on:4>1654 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL3DTH <qso_date:8:d>20000814 <time_on:4>1655 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LY2HN <qso_date:8:d>20000814 <time_on:4>1655 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OK2EC <qso_date:8:d>20000814 <time_on:4>1655 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DJ7XA <qso_date:8:d>20000814 <time_on:4>1656 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>UA3FT <qso_date:8:d>20000814 <time_on:4>1656 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL1ROT <qso_date:8:d>20000814 <time_on:4>1657 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>G3IAF <qso_date:8:d>20000814 <time_on:4>1657 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>UA6LCF <qso_date:8:d>20000814 <time_on:4>1657 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL5DWW <qso_date:8:d>20000814 <time_on:4>1658 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>RN3OA <qso_date:8:d>20000814 <time_on:4>1658 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>RZ6HX <qso_date:8:d>20000814 <time_on:4>1658 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OZ8SW <qso_date:8:d>20000814 <time_on:4>1659 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>UA3UAW <qso_date:8:d>20000814 <time_on:4>1700 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>YO9HP <qso_date:8:d>20000814 <time_on:4>1700 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL1EV <qso_date:8:d>20000814 <time_on:4>1701 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL4FF <qso_date:8:d>20000814 <time_on:4>1701 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LZ3GA <qso_date:8:d>20000814 <time_on:4>1701 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>HA1AG <qso_date:8:d>20000814 <time_on:4>1702 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL0AVH <qso_date:8:d>20000814 <time_on:4>1705 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OK1PR <qso_date:8:d>20000814 <time_on:4>1705 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL3NM <qso_date:8:d>20000814 <time_on:4>1706 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL7ON <qso_date:8:d>20000814 <time_on:4>1706 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL8AAM <qso_date:8:d>20000814 <time_on:4>1706 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>HB9CGL <qso_date:8:d>20000814 <time_on:4>1706 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL3NM <qso_date:8:d>20000814 <time_on:4>1707 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:8>JW/DJ3KR <qso_date:8:d>20000814 <time_on:4>1707 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>HA1AG <qso_date:8:d>20000814 <time_on:4>1708 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>LZ7G <qso_date:8:d>20000814 <time_on:4>1708 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OE5CA <qso_date:8:d>20000814 <time_on:4>1708 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL5ZB <qso_date:8:d>20000814 <time_on:4>1709 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>OK2PAY <qso_date:8:d>20000814 <time_on:4>1709 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL3NCI <qso_date:8:d>20000814 <time_on:4>1710 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL7ON <qso_date:8:d>20000814 <time_on:4>1710 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL8QS <qso_date:8:d>20000814 <time_on:4>1711 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>OE2LCM <qso_date:8:d>20000814 <time_on:4>1711 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DF0CG <qso_date:8:d>20000814 <time_on:4>1712 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:3>M5X <qso_date:8:d>20000814 <time_on:4>1712 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>UA4PI <qso_date:8:d>20000814 <time_on:4>1712 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL0CS <qso_date:8:d>20000814 <time_on:4>1715 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>OL8M <qso_date:8:d>20000814 <time_on:4>1715 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL0CS <qso_date:8:d>20000814 <time_on:4>1718 
+<band:3>15M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL0CS <qso_date:8:d>20000814 <time_on:4>1718 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>RD4M <qso_date:8:d>20000814 <time_on:4>1719 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>LZ7G <qso_date:8:d>20000814 <time_on:4>1720 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>PA0ABM <qso_date:8:d>20000814 <time_on:4>1720 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:3>M5X <qso_date:8:d>20000814 <time_on:4>1722 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LY2HN <qso_date:8:d>20000814 <time_on:4>1723 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>LY5A <qso_date:8:d>20000814 <time_on:4>1723 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>K1JE/M <qso_date:8:d>20001021 <time_on:4>0503 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>UT3IZ <qso_date:8:d>20000814 <time_on:4>1724 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LZ2FM <qso_date:8:d>20000814 <time_on:4>1725 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OK2RZ <qso_date:8:d>20000814 <time_on:4>1725 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>UX0ZX <qso_date:8:d>20000814 <time_on:4>1725 
+<band:3>10M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>PA0ABM <qso_date:8:d>20000814 <time_on:4>1726 
+<band:3>20M <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>LY4AA <qso_date:8:d>20000814 <time_on:4>1729 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL3LBM <qso_date:8:d>20000814 <time_on:4>1732 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL5JAN <qso_date:8:d>20000814 <time_on:4>1732 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DL5JS <qso_date:8:d>20000814 <time_on:4>1732 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>OK2BSA <qso_date:8:d>20000814 <time_on:4>1733 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>DJ1PQ <qso_date:8:d>20000814 <time_on:4>1734 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>OK1XC <qso_date:8:d>20000814 <time_on:4>1734 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>OK1FCA <qso_date:8:d>20000814 <time_on:4>1735 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>EA6BH <qso_date:8:d>20000814 <time_on:4>1736 
+<band:3>20M <mode:3>SSB <rst_sent:3>599 <rst_rcvd:3>599 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>K1VSJ <qso_date:8:d>20001020 <time_on:4>0338 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>W2CR <qso_date:8:d>20001020 <time_on:4>0340 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:6>DL2FDP <qso_date:8:d>20001020 <time_on:4>0341 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:4>S59O <qso_date:8:d>20001020 <time_on:4>0342 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
+<call:5>K4MEZ <qso_date:8:d>20001020 <time_on:4>0347 
+<band:3>20M <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 
+<qsl_sent:1>N <qsl_rcvd:1>N <eor>
